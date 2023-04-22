@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright (c) sbdevblog (http://www.sbdevblog.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <sbdevblog>
+            <qty_postcodes>
+                <availability>
+                    <item1>
+                        <sku>24-WG085</sku>
+                        <qty>5</qty>
+                        <postcode>90001</postcode>
+                    </item1>
+                    <item2>
+                        <sku>24-WG086</sku>
+                        <qty>10</qty>
+                        <postcode>90002</postcode>
+                    </item2>
+                    <item3>
+                        <sku>24-WG087</sku>
+                        <qty>15</qty>
+                        <postcode>90003</postcode>
+                    </item3>
+                </availability>
+            </qty_postcodes>
+        </sbdevblog>
+    </default>
+</config>

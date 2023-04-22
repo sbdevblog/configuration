@@ -1,0 +1,22 @@
+{
+    "name": "sbdevblog/config-blog",
+    "description": "Catalog Handling Module For Blog.",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+     "require": {
+         "php": "^7.4||^8.1",
+         "magento/module-catalog": "^104.0.0",
+         "magento/module-checkout": "^100.4.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SbDevBlog\\Config\\": ""
+        }
+    }
+}
