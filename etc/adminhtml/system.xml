@@ -4,7 +4,8 @@
  * @copyright Copyright (c) sbdevblog (http://www.sbdevblog.com)
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <tab id="sbdevblog" translate="label" sortOrder="10">
             <label>SB Dev Blog</label>
@@ -14,9 +15,16 @@
             <label>SB Dev Blog</label>
             <tab>sbdevblog</tab>
             <resource>SbDevBlog_Config::sbdevblog_config</resource>
-            <group id="qty_postcodes" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="qty_postcodes" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
                 <label>Qty Available For Post codes</label>
-                <field id="availability" translate="label" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="enable" translate="label" sortOrder="1" showInDefault="1" showInStore="1" showInWebsite="1"
+                       type="select">
+                    <label>Enable Product Availability Check</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="availability" translate="label" sortOrder="5" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
                     <label>Qty Against Post Code</label>
                     <frontend_model>SbDevBlog\Config\Block\Adminhtml\Form\Field\QtyPostCodes</frontend_model>
                     <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>

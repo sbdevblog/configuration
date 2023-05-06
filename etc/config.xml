@@ -26,6 +26,7 @@
                         <postcode>90003</postcode>
                     </item3>
                 </availability>
+                <enable>1</enable>
             </qty_postcodes>
         </sbdevblog>
     </default>
