@@ -1,3 +1,7 @@
+Check availibility of the product based on post code.  Allow customer to check qty available in requested product page using postcode. 
+
+Module has used Configuration based post code check without using AJAX.
+
 In order to install module, you can do it two ways:
 
 1) Install By Composer
