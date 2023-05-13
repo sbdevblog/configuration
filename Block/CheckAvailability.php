@@ -9,7 +9,6 @@ use Magento\Framework\View\Element\Template;
 use SbDevBlog\Config\Services\GetStoreConfigurationService;
 use Magento\Framework\Serialize\Serializer\Json;
 use Magento\Catalog\Helper\Data as CatalogHelper;
-use Magento\Framework\Json\Helper\Data;
 
 class CheckAvailability extends Template
 {
